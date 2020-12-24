@@ -1,7 +1,9 @@
 import random
 import string
 import requests
-f=open("Valid Nitro.txt", "w", encoding="utf-8")
+
+
+f = open("Valid Nitro.txt", "w", encoding="utf-8")
 
 while True:
     code = ('').join(random.choices(string.ascii_letters + string.digits, k=16))
